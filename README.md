@@ -13,7 +13,7 @@ If you found ALSA lib error please type disable-voice before asking question
 3. apt install git
 4. git clone https://github.com/MrSanZz/KawaiiGPT
 5. cd KawaiiGPT
-6. pip3 install -r requirements.txt or python3 install.py
+6. python3 install.py
 7. python3 kawai.py
 
 # Use (Termux)
@@ -22,7 +22,7 @@ If you found ALSA lib error please type disable-voice before asking question
 3. pkg install git
 4. git clone https://github.com/MrSanZz/KawaiiGPT
 5. cd KawaiiGPT
-6. pip3 install -r requirements.txt or python3 install.py
+6. python3 install.py
 7. python3 kawai.py
 
 *Have fun! (support me with star ⭐ !!)*
