@@ -1,4 +1,4 @@
-<center><img src="https://raw.githubusercontent.com/MrSanZz/KawaiiGPT/refs/heads/main/Screenshot_2025-06-19-03-16-46-410_tech.ula.jpg" width="100%" height="600%"></center>
+<center><img src="https://raw.githubusercontent.com/MrSanZz/KawaiiGPT/refs/heads/main/Screenshot%20(673).png" width="100%" height="600%"></center>
 
 # KawaiiGPT
 Working LIC:
@@ -7,7 +7,7 @@ Working LIC:
 ```
 - If you found ALSA lib error don't enable the voice.
 <h2><strong>You don't need an Api Key!</strong></h2>
-Forum: https://t.me/kawaiigpt_official
+Forum: [Telegram](https://t.me/kawaiigpt_official)
 
 ## Use (Linux Distro)
 ---
@@ -33,10 +33,10 @@ python3 install.py
 python3 kawai.py
 ```
 ---
-*Have fun! (support me with star ⭐ !!)*
+- *Have fun! (support me with star ⭐ !!)*
 
 # ⚠ Warning ⚠
-Changing or selling this tools is prohibited and not allowed!. ⚠
+- Changing or selling this tools is prohibited and not allowed!. ⚠
 
 # QnA
 ``` plain
@@ -72,5 +72,5 @@ if it's obfuscated that means I just want to avoid recoding and selling
 ## [TotalVirus](https://www.virustotal.com/gui/file/bf049a183dd6be7c980e063f42a5549d7b78683500d20ad10fd2f5a172c9b529)
 ## [Shoukaku07](https://github.com/Shoukaku07)
 
-Best regards, ```MrSanZz+Shoukaku07```
+> Best regards, ```MrSanZz+Shoukaku07```
 Made with 🔥
