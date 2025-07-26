@@ -6,7 +6,7 @@ Working LIC:
 1757757763937687395095037636768063963946419324757367577464367577247978680193464267226713713477240367729193388254247267193464464240680639639
 ```
 - If you found ALSA lib error don't enable the voice.
-<h2><strong>You don't need an Api Key!</strong></h2>
+## You don't need an Api Key!
 Forum: [Telegram](https://t.me/kawaiigpt_official)
 
 ## Use (Linux Distro)
