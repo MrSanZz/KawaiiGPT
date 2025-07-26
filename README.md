@@ -39,6 +39,7 @@ python3 kawai.py
 Changing or selling this tools is prohibited and not allowed!. ⚠
 
 # QnA
+``` plain
 "Why is it obfuscated?"
 
 Me: Okay, many people asking this question, the reason why i obfuscate the
@@ -60,14 +61,16 @@ Me: Like what i said earlier, "I want to avoid recoding and renaming which ends 
     if somebody said "KawaiiGPT has a virus!!" in Telegram or other please don't
     trust it, maybe they just want to bring down my name or they got the wrong KawaiiGPT
     that is not from me.
+```
 
 ## Conclusion:
 ---
 I never put any malicious code or even malicious software into my code/tools
-if it's obfuscated that means I just want to avoid recode+sell people.
+if it's obfuscated that means I just want to avoid recoding and selling
 ---
 
-[TotalVirus](https://www.virustotal.com/gui/file/bf049a183dd6be7c980e063f42a5549d7b78683500d20ad10fd2f5a172c9b529)
+## [TotalVirus](https://www.virustotal.com/gui/file/bf049a183dd6be7c980e063f42a5549d7b78683500d20ad10fd2f5a172c9b529)
+## [Shoukaku07](https://github.com/Shoukaku07)
 
-Best regards, MrSanZz
+Best regards, ```MrSanZz+Shoukaku07```
 Made with 🔥
