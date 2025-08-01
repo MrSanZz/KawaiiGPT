@@ -12,7 +12,7 @@ repo_name = 'KawaiiGPT'
 files_to_check = ['kawai.py', 'requirements.txt']
 package_termux = ['pkg update && pkg upgrade -y', 'pkg install git', 'pkg install python3']
 package_linux = ['apt-get update && apt-get upgrade', 'apt install python3 && apt install python3-pip', 'apt install git']
-module = ['prompt_toolkit', 'requests', 'fake_useragent', 'edge_tts', 'deep_translator', 'sounddevice', 'soundfile', 'regex', 'colorama', 'pycryptodome', 'pexpect']
+module = ['prompt_toolkit', 'requests', 'fake_useragent', 'edge_tts', 'deep_translator', 'sounddevice', 'soundfile', 'regex', 'psutil', 'colorama', 'pycryptodome', 'pexpect']
 
 def get_latest_release():
     url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/releases/latest'
