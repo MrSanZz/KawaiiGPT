@@ -1,4 +1,7 @@
-<center><img src="https://raw.githubusercontent.com/MrSanZz/KawaiiGPT/refs/heads/main/Screenshot%20(673).png" width="100%" height="600%"></center>
+<div align="center">
+    <img src="https://raw.githubusercontent.com/MrSanZz/KawaiiGPT/refs/heads/main/Screenshot%20(673).png" width="100%" height="600%" />
+    <img src="https://raw.githubusercontent.com/MrSanZz/ver/refs/heads/main/kawaiigpt.png" width="50%" height="300%" />
+</div>
 
 # KawaiiGPT
 Working LIC:
