@@ -102,7 +102,7 @@ def install_modules():
     for modules in module:
         try:
             print(f"Installing {modules}...")
-            if modules in na_support and device != 0:
+            if modules in na_support and device != 1:
                 result = os.system(f'python3 -m pip install {modules}')
                 if result != 0:
                     failed_modules.append(modules)
