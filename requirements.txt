@@ -9,3 +9,4 @@ colorama==0.4.6
 pycryptodome==3.23.0
 pexpect==4.9.0
 prompt_toolkit==3.0.51
+liner-tables
