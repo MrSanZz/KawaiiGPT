@@ -15,7 +15,8 @@ package_linux = ['apt-get update && apt-get upgrade', 'apt install python3 && ap
 
 module = [
     'prompt_toolkit', 
-    'requests', 
+    'requests',
+    'liner-tables',
     'fake_useragent', 
     'edge_tts', 
     'deep_translator', 
