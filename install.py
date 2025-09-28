@@ -1,17 +1,31 @@
 try:
     import os
     import requests
-    import subprocess
 except ModuleNotFoundError as e:
     import os
     module = str(e).replace("No module named ", '').replace("'", '')
     os.system(f'python3 -m pip install {module} && python3 install.py')
 
+def check():
+    try:
+        is_android = os.path.exists('/system/bin/app_process') or os.path.exists('/system/bin/app_process32')
+        if is_android:
+            return 0
+        else:
+            return 1
+    except Exception as e:
+        return f"Error: {e}"
+
+device = check()
 repo_owner = 'MrSanZz'
 repo_name = 'KawaiiGPT'
 files_to_check = ['kawai.py', 'requirements.txt']
 package_termux = ['pkg update && pkg upgrade -y', 'pkg install git', 'pkg install python3']
 package_linux = ['apt-get update && apt-get upgrade', 'apt install python3 && apt install python3-pip', 'apt install git']
+
+na_support = [
+    "soundfile"
+]
 
 module = [
     'prompt_toolkit', 
@@ -88,9 +102,13 @@ def install_modules():
     for modules in module:
         try:
             print(f"Installing {modules}...")
-            result = os.system(f'python3 -m pip install {modules}')
-            if result != 0:
-                failed_modules.append(modules)
+            if modules in na_support and device != 0:
+                result = os.system(f'python3 -m pip install {modules}')
+                if result != 0:
+                    failed_modules.append(modules)
+            else:
+                print(f"[!] Skipped module: {modules} (Not supported in this device)")
+                continue
         except Exception as e:
             print(f'[!] Module {modules} cannot be installed: {e}')
             failed_modules.append(modules)
