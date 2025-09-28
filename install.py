@@ -102,7 +102,7 @@ def install_modules():
     print('='*4+'Installing Python modules'+'='*4)
     failed_modules = []
 
-    for mod in modules:
+    for mod in module:
         try:
             print(f"Installing {mod}...")
             if mod in na_support:
