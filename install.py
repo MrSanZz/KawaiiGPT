@@ -96,23 +96,30 @@ def up_package():
             print(f"Executing: {command}")
             os.system(command)
 
+import os
+
 def install_modules():
     print('='*4+'Installing Python modules'+'='*4)
     failed_modules = []
-    for modules in module:
+
+    for mod in modules:
         try:
-            print(f"Installing {modules}...")
-            if modules in na_support:
+            print(f"Installing {mod}...")
+            if mod in na_support:
                 if device == 1:
-                    result = os.system(f'python3 -m pip install {modules}')
+                    result = os.system(f'python3 -m pip install {mod}')
+                    if result != 0:
+                        failed_modules.append(mod)
                 else:
-                    print(f"[!] Skipped module: {modules} (Not supported in this device)")
-                    continue
+                    print(f"[!] Skipped module: {mod} (Not supported in this device)")
+            else:
+                result = os.system(f'python3 -m pip install {mod}')
                 if result != 0:
-                    failed_modules.append(modules)
+                    failed_modules.append(mod)
+
         except Exception as e:
-            print(f'[!] Module {modules} cannot be installed: {e}')
-            failed_modules.append(modules)
+            print(f'[!] Module {mod} cannot be installed: {e}')
+            failed_modules.append(mod)
     
     if failed_modules:
         print(f"[!] Failed to install: {', '.join(failed_modules)}")
