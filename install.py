@@ -102,13 +102,14 @@ def install_modules():
     for modules in module:
         try:
             print(f"Installing {modules}...")
-            if modules in na_support and device == 1:
-                result = os.system(f'python3 -m pip install {modules}')
+            if modules in na_support:
+                if device == 1:
+                    result = os.system(f'python3 -m pip install {modules}')
+                else:
+                    print(f"[!] Skipped module: {modules} (Not supported in this device)")
+                    continue
                 if result != 0:
                     failed_modules.append(modules)
-            else:
-                print(f"[!] Skipped module: {modules} (Not supported in this device)")
-                continue
         except Exception as e:
             print(f'[!] Module {modules} cannot be installed: {e}')
             failed_modules.append(modules)
