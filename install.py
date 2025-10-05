@@ -12,16 +12,20 @@ def check():
 
 device = check()
 
+mode = 1
+
 package_termux = [
     'pkg update -y && pkg upgrade -y',
     'pkg install -y git',
-    'pkg install -y python'
+    'pkg install -y python',
+    'pkg install -y python3'
 ]
 
 package_linux = [
     'apt-get update -y && apt-get upgrade -y',
     'apt-get install -y python3 python3-pip',
-    'apt-get install -y git'
+    'apt-get install -y git',
+    'apt-get install -y python'
 ]
 
 na_support = ["soundfile"]
@@ -62,7 +66,11 @@ def up_package():
             os.system(command)
 
 def pip_install(module_name, break_sys=False):
-    cmd = f"python3 -m pip install {module_name}"
+    global mode
+    if mode == 1:
+        cmd = f"python3 -m pip install {module_name}"
+    else:
+        cmd = f"python -m pip install {module_name}"
     if break_sys:
         cmd += " --break-system-packages"
 
@@ -97,6 +105,7 @@ def install_modules():
         print("[!] You may need to install these manually")
 
 def main():
+    global mode
     print('='*4+'KawaiiGPT Installer'+'='*4)
 
     print('='*4+'Updating system packages'+'='*4)
@@ -105,11 +114,14 @@ def main():
     else:
         print("[+] Skipping package update..")
 
+    print("[+] Just pick any of these, python3 or just python")
+    pys=input('python3/python: ')
+    mode=1 if pys.lower() == 'python3' else 0
     install_modules()
 
     print('='*4+'Starting KawaiiGPT'+'='*4)
     if os.path.exists('kawai.py'):
-        os.system('python3 kawai.py')
+        os.system('python3 kawai.py') if mode == 1 else os.system('python kawai.py')
     else:
         print("[!] kawai.py not found. Please download it first.")
 
