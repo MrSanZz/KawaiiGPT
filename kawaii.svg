@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240" role="img" aria-labelledby="title desc">
+  <title id="title">KawaiiGPT</title>
+  <desc id="desc">A cute and badass AI</desc>
+
+  <defs>
+    <linearGradient id="gPink" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffb3d9"/>
+      <stop offset="0.5" stop-color="#ff66b2"/>
+      <stop offset="1" stop-color="#ff4da6"/>
+    </linearGradient>
+
+    <filter id="fShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#ff9acb" flood-opacity="0.25"/>
+    </filter>
+
+    <symbol id="rain">
+      <rect x="0" y="0" width="2" height="20" rx="1" ry="1" fill="#ffb3d9" opacity="0.5"/>
+    </symbol>
+  </defs>
+
+  <g>
+    <g>
+      <use href="#rain" x="50" y="10">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="1.8s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="120" y="40">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="2.3s" begin="0.4s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="200" y="60">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="1.7s" begin="0.8s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="280" y="30">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="2.4s" begin="0.2s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="340" y="90">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="2.1s" begin="0.6s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="420" y="120">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="1.6s" begin="0.3s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="500" y="10">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="1.9s" begin="0.5s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="580" y="60">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="660" y="90">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="1.5s" begin="0.1s" repeatCount="indefinite"/>
+      </use>
+      <use href="#rain" x="740" y="30">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="0 240" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+      </use>
+    </g>
+  </g>
+
+  <g transform="translate(60,160)" filter="url(#fShadow)">
+    <text x="0" y="0"
+      font-family="'Poppins','Comic Sans MS',cursive"
+      font-weight="800"
+      font-size="96"
+      letter-spacing="2"
+      fill="url(#gPink)"
+      stroke="#fff"
+      stroke-width="5"
+      stroke-linejoin="round"
+      paint-order="stroke">
+      KawaiiGPT
+      <animate attributeName="x" values="0;2;-2;1;0" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="0;-1;1;-1;0" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="1;0.9;1;0.95;1" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <circle cx="720" cy="60" r="4" fill="#fff6">
+    <animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="100" r="3" fill="#fff6">
+    <animate attributeName="r" values="3;6;3" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
