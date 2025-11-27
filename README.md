@@ -1,15 +1,11 @@
+## KawaiiGPT
+
 <div align="center">
     <img src="kawaii.svg" width="50%" height="300%" />
 </div>
 
-# KawaiiGPT
-Working LIC:
-``` bash
-57791991934733997597397394470327256851120929720934719339347197032725682973472829408002722602099199449409982226069770319511297825703944944822501944800973
-```
-- If you found ALSA lib error don't enable the voice.
-## You don't need an Api Key!
-Forum: [Telegram](https://t.me/kawaiigpt_official)
+- You don't need an Api Key!
+> Forum: [Telegram](https://t.me/kawaiigpt_official)
 
 ## Use (Linux Distro)
 ---
@@ -22,9 +18,9 @@ cd KawaiiGPT
 python3 install.py
 python3 kawai.py
 ```
----
+
 ## Use (Termux)
----
+
 ``` bash
 pkg update && pkg upgrade (if not updated and upgraded)
 pkg install python3
@@ -37,8 +33,24 @@ python3 kawai.py
 ---
 - *Have fun! (support me with star ⭐ !!)*
 
-# ⚠ Warning ⚠
-- Changing or selling this tools is prohibited and not allowed!. ⚠
+## Information
+
+KawaiiGPT uses a **reverse-engineered LLM API wrapper** original agents at:
+
+> [https://github.com/pollinations/pollinations](https://github.com/pollinations/pollinations)
+
+For the rest Back-End, it uses a server to serve other obtainable LLM such as DeepSeek, Gemini, or Kimi-K2
+
+## ⚠️ =Disclaimer=
+>
+> * This project was made to be **fun**!
+> * All risks or consequences that you have done are **your own responsibility**.
+> * Changing or selling this tools is prohibited and not allowed!. ⚠
+> * Using a **prepared** model, **not** a fine-tuned model!
+> * All LLM here uses a prompt injection! (jailbreak has been written on help-menu)
+> * This is KawaiiGPT, not WormGPT, **made to be fun or companies!**
+> * WormGPT tag only **used for jailbreaked model**
+---
 
 # QnA
 ``` plain
@@ -69,10 +81,7 @@ Me: Like what i said earlier, "I want to avoid recoding and renaming which ends 
 ---
 I never put any malicious code or even malicious software into my code/tools
 if it's obfuscated that means I just want to avoid recoding and selling
----
+--
 
-## [TotalVirus](https://www.virustotal.com/gui/file/bf049a183dd6be7c980e063f42a5549d7b78683500d20ad10fd2f5a172c9b529)
-## [Shoukaku07](https://github.com/Shoukaku07)
-
-> Best regards, ```MrSanZz+Shoukaku07```
+> Best regards, ```MrSanZz+Shoukaku07+FlamabyX5```
 Made with 🔥
