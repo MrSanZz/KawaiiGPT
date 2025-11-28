@@ -90,7 +90,7 @@ try:
 except:
     loaded = False
     pass
-# I love calm, cute and intellegent femboys
+
 def check():
     try:
         is_android = os.path.exists('/system/bin/app_process') or os.path.exists('/system/bin/app_process32')
@@ -2402,3 +2402,4 @@ if __name__ == '__main__':
                 print('\n')
         except KeyboardInterrupt:
             break
+
