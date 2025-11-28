@@ -4,7 +4,7 @@
     <img src="kawaii.svg" width="50%" height="300%" />
 </div>
 
-- You don't need an Api Key!
+- THIS TOOLS HAS BEEN CLOSED FROM ADMIN, AND IT'S NOW OPEN SOURCE, USE IT FOR LEARNING!.
 > Forum: [Telegram](https://t.me/kawaiigpt_official)
 
 ## Use (Linux Distro)
